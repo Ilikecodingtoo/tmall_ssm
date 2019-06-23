@@ -45,28 +45,29 @@ $(function(){
         </div>
         <table class="registerTable" align="center">
             <tr>
-                <td class="registerTip registerTableLeftTD">Set Member Name</td>
+                <td class="registerTip registerTableLeftTD">下面请输入您的账号</td>
             </tr>
             <tr>
-                <td class="registerTableLeftTD">User Name</td>
+                <td class="registerTableLeftTD">账号</td>
                 <td class="registerTableRightTD"><input id="userName" name="name"
-                        placeholder="Once user name is submitted successful, it cannot be changed"></td>
+                        placeholder="仔细填写，错了将不能更改哦"></td>
             </tr>
             <tr>
-                <td  class="registerTip registerTableLeftTD">Set Password</td>
-                <td  class="registerTableRightTD">Login authentication, protect users information</td>
+                <td  class="registerTip registerTableLeftTD">设置密码</td>
+                <td  class="registerTableRightTD">平台会保证用户个人隐私</td>
             </tr>
             <tr>
-                <td class="registerTableLeftTD">Password</td>
-                <td class="registerTableRightTD"><input id="userPassword" name="password" type="password"  placeholder="Set your password"> </td>
+                <td class="registerTableLeftTD">您的密码</td>
+                <td class="registerTableRightTD"><input id="userPassword" name="password" type="password"  placeholder="您的密码"> </td>
             </tr>
             <tr>
-                <td class="registerTableLeftTD">Repeat Your Password</td>
-                <td class="registerTableRightTD"><input id="repeatPassword" type="password"   placeholder="Please type your password again" > </td>
+                <td class="registerTableLeftTD">再次确认密码
+                </td>
+                <td class="registerTableRightTD"><input id="repeatPassword" type="password"   placeholder="" > </td>
             </tr>
             <tr>
                 <td colspan="2" class="registerButtonTD">
-                    <a href="registerSuccess.jsp"><button>Submit</button></a>
+                    <a href="registerSuccess.jsp"><button>注册</button></a>
                 </td>
             </tr>
         </table>

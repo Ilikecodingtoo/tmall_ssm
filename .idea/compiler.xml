@@ -9,5 +9,8 @@
         <module name="tmall_ssm" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tmall_ssm" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,7 +4,7 @@
 <div class="buyPageDiv">
   <form id = "checkoutForm" action="${base_url}/foreCreateOrder" method="post">
     <div class="buyFlow">
-        <img class="pull-left" src="${base_url}/img/site/simpleLogo.png">
+        <img class="pull-left" src="${base_url}/">
         <img class="pull-right" src="${base_url}/img/site/buyflow.png">
         <div style="clear:both"></div>
     </div>
@@ -39,8 +39,8 @@
             <thead>
                 <tr>
                     <th colspan="2" class="productListTableFirstColumn">
-                        <img class="tmallbuy" src="${base_url}/img/site/tmallbuy.png">
-                        <a class="marketLink" href="#nowhere">店铺：天猫店铺</a>
+                        <%--<img class="tmallbuy" src="${base_url}/img/site/tmallbuy.png">--%>
+                        <a class="marketLink" href="#nowhere">店铺：淘米店铺</a>
                         <a class="wangwanglink" href="#nowhere"> <span class="wangwangGif"></span> </a>
                     </th>
                     <th>单价</th>

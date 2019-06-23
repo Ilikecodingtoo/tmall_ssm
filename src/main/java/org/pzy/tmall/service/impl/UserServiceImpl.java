@@ -57,4 +57,10 @@ public class UserServiceImpl implements UserService {
         List<User> users = userMapper.selectByExample(userExample);
         return users.isEmpty() ? null : users.get(0);
     }
+
+    @Override
+    public User getUser(User user) {
+        return userMapper.getLogin(user);
+
+    }
 }

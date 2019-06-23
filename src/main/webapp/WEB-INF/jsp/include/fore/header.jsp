@@ -60,7 +60,7 @@ $(function(){
     });
 
     $("div#footer a[href$=#nowhere]").click(function(){
-       alert("模仿天猫的连接，并没有跳转到实际的页面");
+       alert("模仿淘米的连接，并没有跳转到实际的页面");
     });
 
     $("a.wangwanglink").click(function(){

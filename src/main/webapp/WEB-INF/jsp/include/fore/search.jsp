@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
         pageEncoding="utf-8" isELIgnored="false"%>
-<a href="${contextPath}">
+<%--<a href="${contextPath}">
     <img id="logo" src="${base_url}/img/site/logo.gif" class="logo">
-</a>
+</a>--%>
 <form action="${base_url}/foreSearch" method="POST" enctype="multipart/form-data">
     <div class="searchDiv">
         <input name="keyword" type="text" value = "${param.keyword}" placeholder="Fashionable Shoe Sunglasses">

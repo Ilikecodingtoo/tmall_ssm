@@ -104,4 +104,9 @@
       password = #{password,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="getLogin" parameterType="org.pzy.tmall.pojo.User" resultMap="BaseResultMap">
+          select name,password from  user where name=#{name,jdbcType=VARCHAR}
+          and password=#{password,jdbcType=VARCHAR}
+  </select>
 </mapper>

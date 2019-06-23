@@ -37,6 +37,7 @@
         </mvc:interceptor>
         <mvc:interceptor>
             <mvc:mapping path="/*"/>
+            <mvc:exclude-mapping path="/CheckCode"/>
             <bean class="org.pzy.tmall.interceptor.OtherInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>

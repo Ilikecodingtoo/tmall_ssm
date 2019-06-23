@@ -95,7 +95,7 @@ $(function(){
                         <b><fmt:formatDate value="${order.createDate}" pattern="yyyy-MM-dd HH:mm:ss"/></b>
                         <span>订单号: ${order.orderCode}</span>
                     </td>
-                    <td  colspan="2"><img width="13px" src="${base_url}/img/site/orderItemTmall.png">天猫商场</td>
+                    <td  colspan="2"><img width="13px" >淘米商场</td>
                     <td colspan="1">
                         <a class="wangwanglink" href="#nowhere">
                             <div class="orderItemWangWangGif"></div>

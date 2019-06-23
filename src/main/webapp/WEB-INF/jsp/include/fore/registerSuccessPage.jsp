@@ -2,5 +2,5 @@
     pageEncoding="utf-8" isELIgnored = "false"%>
 <div class="registerSuccessDiv">
     <img src="img/site/registerSuccess.png">
-        Congradulations! You register successfully.
+        亲，恭喜您，注册成功，请从新登录！
 </div>

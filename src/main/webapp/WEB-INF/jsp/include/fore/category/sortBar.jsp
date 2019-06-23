@@ -46,12 +46,12 @@ $(function(){
         </tr>
     </table>
 
-    <table class="categorySortBarTable">
-        <tr>
-            <td><input class="sortBarPrice beginPrice" type="text" placeholder="请输入"></td>
-            <td class="grayColumn priceMiddleColumn">-</td>
-            <td><input class="sortBarPrice endPrice" type="text" placeholder="请输入"></td>
-        </tr>
-    </table>
+    <%--<table class="categorySortBarTable">--%>
+        <%--<tr>--%>
+            <%--<td><input class="sortBarPrice beginPrice" type="text" placeholder="请输入"></td>--%>
+            <%--<td class="grayColumn priceMiddleColumn">-</td>--%>
+            <%--<td><input class="sortBarPrice endPrice" type="text" placeholder="请输入"></td>--%>
+        <%--</tr>--%>
+    <%--</table>--%>
 
 </div>

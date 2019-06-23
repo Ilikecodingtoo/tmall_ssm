@@ -66,7 +66,7 @@ The backend is implemented with Java and all the codes are under the **org.pzy.t
 * mapper:  a series of interfaces, used to execute SQL command defined in .xml files to CRUD data.
 * pojo: all the data types, which are in accord with the data defined in database.
 * service: define several APIs called by controller, handle business logic by using the method in mapper.
-* util: several utilities to process special kinds of data like uploaded images.
+* util: several utilities to process special kinds of data like uploaded img.
 
 ### Front-End
 

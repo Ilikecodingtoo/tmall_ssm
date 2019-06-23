@@ -152,9 +152,9 @@ $(function(){
                 <span>此商品即将参加聚划算，<span class="juhuasuanTime">1天19小时</span>后开始，</span>
             </div>
             <div class="productPriceDiv">
-                <div class="gouwujuanDiv"><img height="16px" src="${base_url}/img/site/gouwujuan.png">
-                    <span> 全天猫实物商品通用</span>
-                </div>
+                <%--<div class="gouwujuanDiv"><img height="16px" src="${base_url}/img/site/gouwujuan.png">--%>
+                    <%--<span> 全淘米实物商品通用</span>--%>
+                <%--</div>--%>
                 <div class="originalDiv">
                     <span class="originalPriceDesc">价格</span>
                     <span class="originalPriceYuan">¥</span>
@@ -179,7 +179,7 @@ $(function(){
             <span>数量</span>
             <span>
                 <span class="productNumberSettingSpan">
-                <input class="productNumberSetting" type="text" value="1">
+                <input class="productNumberSetting" type="text" value="1" style="height:20px">
                 </span>
                 <span class="arrow">
                     <a href="#nowhere" class="increaseNumber">

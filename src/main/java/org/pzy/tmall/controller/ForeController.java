@@ -51,7 +51,7 @@ public class ForeController {
         boolean exist = userService.isExist(name);
         System.out.println(user.getName() + user.getName().length());
         if (exist) {
-            String m = "The user name has been used";
+            String m = "用户名已经存在";
             model.addAttribute("msg", m);
             model.addAttribute("user", null);
             return "fore/register";
@@ -66,7 +66,7 @@ public class ForeController {
         String name = HtmlUtils.htmlEscape(user.getName());
         User newUser = userService.get(name, user.getPassword());
         if (null == newUser){
-            model.addAttribute("msg", "Account or Password Error");
+            model.addAttribute("msg", "账号或密码错误");
             return "fore/login";
         }
         session.setAttribute("user", newUser);

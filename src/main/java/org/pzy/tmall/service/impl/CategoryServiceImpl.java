@@ -4,8 +4,10 @@ import org.pzy.tmall.mapper.CategoryMapper;
 import org.pzy.tmall.pojo.Category;
 import org.pzy.tmall.pojo.CategoryExample;
 import org.pzy.tmall.service.CategoryService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Autowired
     CategoryMapper categoryMapper;
+
     @Override
     public List<Category> list() {
         CategoryExample example = new CategoryExample();
@@ -23,22 +26,22 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public void add(Category category){
+    public void add(Category category) {
         categoryMapper.insert(category);
     }
 
     @Override
-    public void delete(int id){
+    public void delete(int id) {
         categoryMapper.deleteByPrimaryKey(id);
     }
 
     @Override
-    public Category get(int id){
+    public Category get(int id) {
         return categoryMapper.selectByPrimaryKey(id);
     }
 
     @Override
-    public void update(Category category){
+    public void update(Category category) {
         categoryMapper.updateByPrimaryKeySelective(category);
     }
 }

@@ -9,7 +9,7 @@
 
         $("form.loginForm").submit(function(){
             if (0 == $("#userName").val().length || 0 == $("#userPassword").val().length){
-                $("span.errorMessage").html("Username and password cannot be empty");
+                $("span.errorMessage").html("用户名或密码不能为空");
                 $("div.loginErrorMessageDiv").show();
                 return false;
             }
@@ -27,11 +27,11 @@
 
 <div id="loginDiv" style="position: relative">
     <div class="simpleLogo">
-        <a href="${contextPath}"><img src="img/site/simpleLogo.png"></a>
+        <a href="${contextPath}"><img src=""></a>
     </div>
 
     <!-- Back Ground Image -->
-    <img id = "loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png">
+    <img id = "loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png" style="height: 700px" width="1500px">
 
     <!--Login Form-->
     <form class="loginForm" action="foreLogin" method="post">
@@ -45,12 +45,12 @@
             </div>
 
             <!-- Account Number -->
-            <div class="login_account_text">Account Login</div>
+            <div class="login_account_text">用户登录</div>
             <div class="loginInput ">
                 <span class="loginInputIcon" >
                     <span class="glyphicon glyphicon-user"></span>
                 </span>
-                <input id="userName" name="name" placeholder="Phone Number/Member/EMail" type="text">
+                <input id="userName" name="name" placeholder="您之前注册的账号" type="text">
             </div>
 
             <!-- Password -->
@@ -59,16 +59,16 @@
                 <span class="loginInputIcon ">
                     <span class="glyphicon glyphicon-lock"></span>
                 </span>
-                <input id="userPassword"  name="password" placeholder="Password" type="password">
+                <input id="userPassword"  name="password" placeholder="请输入您的密码" type="password">
             </div>
-            <span class="text-danger">Please do not type the real Tmall password</span><br><br>
+            <span class="text-danger"></span><br><br>
 
             <div>
-                <a class="notImplementLink" href="#nowhere">Forget Password</a>
-                <a href="registerPage" class="pull-right">Register</a>
+                <a class="notImplementLink" href="#nowhere">忘记密码</a>
+                <a href="registerPage" class="pull-right">没有账号，点击注册</a>
             </div>
             <div style="margin-top:20px">
-                <button class="btn btn-block redButton" type="submit">Login</button>
+                <button class="btn btn-block redButton" type="submit">登录</button>
             </div>
         </div>
     </form>
